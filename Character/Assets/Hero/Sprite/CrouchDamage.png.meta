@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 0673bd068d2c6084196c4f735a1cd31e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6574723594422075938
+    second: CrouchDamage_0
+  - first:
+      213: -4726756915633076401
+    second: CrouchDamage_1
+  - first:
+      213: 1096797518547359550
+    second: CrouchDamage_2
+  - first:
+      213: -7929595748711721456
+    second: CrouchDamage_3
+  - first:
+      213: -4035260391632703141
+    second: CrouchDamage_4
+  - first:
+      213: -7014281723413782823
+    second: CrouchDamage_5
+  - first:
+      213: -3050466992626766579
+    second: CrouchDamage_6
+  - first:
+      213: -8411114188248347370
+    second: CrouchDamage_7
+  - first:
+      213: -1507606774246648719
+    second: CrouchDamage_8
+  - first:
+      213: -8306216567291697689
+    second: CrouchDamage_9
+  - first:
+      213: -4662974670893409891
+    second: CrouchDamage_10
+  - first:
+      213: 7498395959608689235
+    second: CrouchDamage_11
+  - first:
+      213: -3783627842715397782
+    second: CrouchDamage_12
+  - first:
+      213: 4317915433407922738
+    second: CrouchDamage_13
+  - first:
+      213: -8367158753206205419
+    second: CrouchDamage_14
+  - first:
+      213: -6069904826230218522
+    second: CrouchDamage_15
+  - first:
+      213: 8183749625007409352
+    second: CrouchDamage_16
+  - first:
+      213: 2062991731557159311
+    second: CrouchDamage_17
+  - first:
+      213: -6118432984850920998
+    second: CrouchDamage_18
+  - first:
+      213: -8094047931524841828
+    second: CrouchDamage_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrouchDamage_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 888
+        width: 106
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22248e5564c1e3b50800000000000000
+      internalID: 6574723594422075938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 886
+        width: 110
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47c110f0af276eb0800000000000000
+      internalID: -4726756915633076401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 886
+        width: 113
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e379b83388b983f00800000000000000
+      internalID: 1096797518547359550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 885
+        width: 115
+        height: 131
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0161799edaa64f190800000000000000
+      internalID: -7929595748711721456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 749
+        width: 115
+        height: 133
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b517784bd00eff7c0800000000000000
+      internalID: -4035260391632703141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 745
+        width: 115
+        height: 135
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de18619fe348ae90800000000000000
+      internalID: -7014281723413782823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 745
+        width: 116
+        height: 136
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d6d69ae609aa5d0800000000000000
+      internalID: -3050466992626766579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 742
+        width: 116
+        height: 136
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8534b538b54b80800000000000000
+      internalID: -8411114188248347370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 596
+        width: 116
+        height: 137
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1745e0060a7e31be0800000000000000
+      internalID: -1507606774246648719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 595
+        width: 116
+        height: 137
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e52d1f4a046abc80800000000000000
+      internalID: -8306216567291697689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 601
+        width: 117
+        height: 137
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9911c80e39c94fb0800000000000000
+      internalID: -4662974670893409891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 601
+        width: 118
+        height: 137
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35243b5a567af0860800000000000000
+      internalID: 7498395959608689235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 454
+        width: 119
+        height: 136
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61dba8068add7bc0800000000000000
+      internalID: -3783627842715397782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 453
+        width: 119
+        height: 134
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c47a95315ceb30800000000000000
+      internalID: 4317915433407922738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 461
+        width: 118
+        height: 132
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51408dfe171e1eb80800000000000000
+      internalID: -8367158753206205419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 461
+        width: 116
+        height: 131
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e06e1468bd53cba0800000000000000
+      internalID: -6069904826230218522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 314
+        width: 114
+        height: 130
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c88d41bce4829170800000000000000
+      internalID: 8183749625007409352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 317
+        width: 112
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f815806bc0831ac10800000000000000
+      internalID: 2062991731557159311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_18
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 318
+        width: 110
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad98debfd95f61ba0800000000000000
+      internalID: -6118432984850920998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchDamage_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 317
+        width: 106
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ef9765a4a2caf80800000000000000
+      internalID: -8094047931524841828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

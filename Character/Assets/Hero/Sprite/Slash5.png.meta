@@ -1,0 +1,1904 @@
+fileFormatVersion: 2
+guid: 684e781a202d43849912dc9eea6b5066
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3267651027492980572
+    second: Slash5_0
+  - first:
+      213: -5836492227633945323
+    second: Slash5_1
+  - first:
+      213: 7796611559214312938
+    second: Slash5_2
+  - first:
+      213: 8693407760891777057
+    second: Slash5_3
+  - first:
+      213: 5407780753685505472
+    second: Slash5_4
+  - first:
+      213: 1305238481750669687
+    second: Slash5_5
+  - first:
+      213: 7812683120876444546
+    second: Slash5_6
+  - first:
+      213: 4501831618018988967
+    second: Slash5_7
+  - first:
+      213: 5615062859893379477
+    second: Slash5_8
+  - first:
+      213: 7055864665965508674
+    second: Slash5_9
+  - first:
+      213: 4899966346061077339
+    second: Slash5_10
+  - first:
+      213: 416243987857030702
+    second: Slash5_11
+  - first:
+      213: -72302074541229
+    second: Slash5_12
+  - first:
+      213: 6325437741858323949
+    second: Slash5_13
+  - first:
+      213: 2292277547843168535
+    second: Slash5_14
+  - first:
+      213: 2766120966435356929
+    second: Slash5_15
+  - first:
+      213: -8721607899881010973
+    second: Slash5_16
+  - first:
+      213: -481944850952850183
+    second: Slash5_17
+  - first:
+      213: -3399956647524791943
+    second: Slash5_18
+  - first:
+      213: 5541131345734635060
+    second: Slash5_19
+  - first:
+      213: -1262584043445580527
+    second: Slash5_20
+  - first:
+      213: -7463678470476059326
+    second: Slash5_21
+  - first:
+      213: 2749622704850348386
+    second: Slash5_22
+  - first:
+      213: 4709071464729973143
+    second: Slash5_23
+  - first:
+      213: -5441335213309358394
+    second: Slash5_24
+  - first:
+      213: 7828572129365467244
+    second: Slash5_25
+  - first:
+      213: -2656050164571277623
+    second: Slash5_26
+  - first:
+      213: 9030471272405171736
+    second: Slash5_27
+  - first:
+      213: -4299186602362891634
+    second: Slash5_28
+  - first:
+      213: 990767080090120005
+    second: Slash5_29
+  - first:
+      213: -371626910972833113
+    second: Slash5_30
+  - first:
+      213: -8366559880173839198
+    second: Slash5_31
+  - first:
+      213: -959755998501758461
+    second: Slash5_32
+  - first:
+      213: -6425942939622761959
+    second: Slash5_33
+  - first:
+      213: -3618180773495844923
+    second: Slash5_34
+  - first:
+      213: 5731341781834546467
+    second: Slash5_35
+  - first:
+      213: -1962502026626165657
+    second: Slash5_36
+  - first:
+      213: -120320068929619720
+    second: Slash5_37
+  - first:
+      213: 5571872549489341394
+    second: Slash5_38
+  - first:
+      213: 1088551395972009532
+    second: Slash5_39
+  - first:
+      213: -5349288583318686234
+    second: Slash5_40
+  - first:
+      213: -5847234219356571144
+    second: Slash5_41
+  - first:
+      213: 2643628202427216540
+    second: Slash5_42
+  - first:
+      213: -5377033420727779398
+    second: Slash5_43
+  - first:
+      213: -1372168685233043145
+    second: Slash5_44
+  - first:
+      213: 1968789814482798322
+    second: Slash5_45
+  - first:
+      213: -8456485908597392635
+    second: Slash5_46
+  - first:
+      213: -5790215776185248093
+    second: Slash5_47
+  - first:
+      213: 7827407827628500959
+    second: Slash5_48
+  - first:
+      213: -6004307349262040199
+    second: Slash5_49
+  - first:
+      213: 2442793799245055902
+    second: Slash5_50
+  - first:
+      213: -1940818449494387561
+    second: Slash5_51
+  - first:
+      213: -875222202238059383
+    second: Slash5_52
+  - first:
+      213: -1753782109980498705
+    second: Slash5_53
+  - first:
+      213: -1078293952886235524
+    second: Slash5_54
+  - first:
+      213: 6087478967080302697
+    second: Slash5_55
+  - first:
+      213: -2144218118647007623
+    second: Slash5_56
+  - first:
+      213: -473428323675332761
+    second: Slash5_57
+  - first:
+      213: 3447030924192754480
+    second: Slash5_58
+  - first:
+      213: -9081709750675397165
+    second: Slash5_59
+  - first:
+      213: 6158045385599466510
+    second: Slash5_60
+  - first:
+      213: -7254222701771568111
+    second: Slash5_61
+  - first:
+      213: -2643248400410569343
+    second: Slash5_62
+  - first:
+      213: 5735541060418740432
+    second: Slash5_63
+  - first:
+      213: -7039319396133556980
+    second: Slash5_64
+  - first:
+      213: -5282184861374119326
+    second: Slash5_65
+  - first:
+      213: -1516096436239293285
+    second: Slash5_66
+  - first:
+      213: -2795616944050876042
+    second: Slash5_67
+  - first:
+      213: -5276926215710042918
+    second: Slash5_68
+  - first:
+      213: 998472250467682895
+    second: Slash5_69
+  - first:
+      213: -104167681996981665
+    second: Slash5_70
+  - first:
+      213: 76951104155488578
+    second: Slash5_71
+  - first:
+      213: 9148812498625764994
+    second: Slash5_72
+  - first:
+      213: -1314689939437253097
+    second: Slash5_73
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slash5_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 831
+        width: 113
+        height: 188
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8375804b8f6a2d0800000000000000
+      internalID: -3267651027492980572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 837
+        width: 113
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515ec85fd3d900fa0800000000000000
+      internalID: -5836492227633945323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 839
+        width: 115
+        height: 182
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed6ca6a7e0233c60800000000000000
+      internalID: 7796611559214312938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 838
+        width: 119
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12014938c4035a870800000000000000
+      internalID: 8693407760891777057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 836
+        width: 122
+        height: 185
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c56e9e91fb4c0b40800000000000000
+      internalID: 5407780753685505472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_5
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 837
+        width: 115
+        height: 184
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7793be3db732d1210800000000000000
+      internalID: 1305238481750669687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_6
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 839
+        width: 104
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd782b7e93c6c60800000000000000
+      internalID: 7812683120876444546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_7
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 839
+        width: 95
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3d4ae3108b97e30800000000000000
+      internalID: 4501831618018988967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 837
+        width: 87
+        height: 184
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5911f63dbe5bced40800000000000000
+      internalID: 5615062859893379477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_9
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 840
+        width: 88
+        height: 182
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248ba16b7877be160800000000000000
+      internalID: 7055864665965508674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_10
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 841
+        width: 91
+        height: 180
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd65c3e6d200440800000000000000
+      internalID: 4899966346061077339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_11
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 844
+        width: 95
+        height: 177
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e3c1c93bbc6c500800000000000000
+      internalID: 416243987857030702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_12
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 847
+        width: 101
+        height: 174
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc78cdd3ebffff0800000000000000
+      internalID: -72302074541229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_13
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 849
+        width: 109
+        height: 172
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7054dc1878c750800000000000000
+      internalID: 6325437741858323949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_14
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 851
+        width: 117
+        height: 171
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719abc5e84ecfcf10800000000000000
+      internalID: 2292277547843168535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_15
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 850
+        width: 126
+        height: 171
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101c32a0d5c336620800000000000000
+      internalID: 2766120966435356929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_16
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 853
+        width: 127
+        height: 169
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e80a59f2df96f680800000000000000
+      internalID: -8721607899881010973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 659
+        width: 152
+        height: 170
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f470a526b9cf49f0800000000000000
+      internalID: -481944850952850183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 658
+        width: 163
+        height: 169
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9798e8c517de0d0d0800000000000000
+      internalID: -3399956647524791943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 656
+        width: 163
+        height: 173
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e8b4cc99d06ec40800000000000000
+      internalID: 5541131345734635060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_20
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 652
+        width: 160
+        height: 177
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d895f70866a7ee0800000000000000
+      internalID: -1262584043445580527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_21
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 645
+        width: 148
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d2b81b9ffab6890800000000000000
+      internalID: -7463678470476059326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_22
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 638
+        width: 134
+        height: 191
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26924fc284f982620800000000000000
+      internalID: 2749622704850348386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_23
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 631
+        width: 127
+        height: 198
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79198252c8bf95140800000000000000
+      internalID: 4709071464729973143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_24
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 627
+        width: 122
+        height: 201
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce0fd2f37e7c74b0800000000000000
+      internalID: -5441335213309358394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_25
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 629
+        width: 114
+        height: 200
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c602a55cfdca4ac60800000000000000
+      internalID: 7828572129365467244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_26
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 631
+        width: 107
+        height: 198
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c67c1b9270d32bd0800000000000000
+      internalID: -2656050164571277623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_27
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 632
+        width: 98
+        height: 195
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e741ad6cda25d70800000000000000
+      internalID: 9030471272405171736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_28
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 638
+        width: 92
+        height: 190
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e829a0f20983654c0800000000000000
+      internalID: -4299186602362891634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_29
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 643
+        width: 109
+        height: 184
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2ce7f869efbd00800000000000000
+      internalID: 990767080090120005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_30
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 646
+        width: 130
+        height: 180
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21d7e1b47b7daf0800000000000000
+      internalID: -371626910972833113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_31
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 442
+        width: 145
+        height: 177
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac143eed1204eb80800000000000000
+      internalID: -8366559880173839198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_32
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 445
+        width: 155
+        height: 175
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a904e11034ea2f0800000000000000
+      internalID: -959755998501758461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_33
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 440
+        width: 159
+        height: 180
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a1bd841f672d6a0800000000000000
+      internalID: -6425942939622761959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_34
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 433
+        width: 154
+        height: 186
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc1a6a1c3a9cdc0800000000000000
+      internalID: -3618180773495844923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 427
+        width: 143
+        height: 190
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d3a901cf0d98f40800000000000000
+      internalID: 5731341781834546467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_36
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 425
+        width: 127
+        height: 193
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76496f7fdcac3c4e0800000000000000
+      internalID: -1962502026626165657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_37
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 419
+        width: 121
+        height: 198
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f87918e889845ef0800000000000000
+      internalID: -120320068929619720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_38
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 421
+        width: 127
+        height: 193
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3ff0e0094435d40800000000000000
+      internalID: 5571872549489341394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_39
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 424
+        width: 131
+        height: 195
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ecaac2abf4b1f00800000000000000
+      internalID: 1088551395972009532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_40
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 418
+        width: 122
+        height: 198
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5bc3e006283c5b0800000000000000
+      internalID: -5349288583318686234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_41
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 455
+        width: 131
+        height: 162
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f93ebc15737adea0800000000000000
+      internalID: -5847234219356571144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_42
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 487
+        width: 151
+        height: 133
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92f0e3f7dd00b420800000000000000
+      internalID: 2643628202427216540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_43
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 494
+        width: 135
+        height: 124
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abffd14b790f065b0800000000000000
+      internalID: -5377033420727779398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_44
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 501
+        width: 133
+        height: 118
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73905c0d9d315fce0800000000000000
+      internalID: -1372168685233043145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 302
+        width: 132
+        height: 112
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f687a9b7eb825b10800000000000000
+      internalID: 1968789814482798322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 303
+        width: 131
+        height: 108
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bb4f9ded684aa80800000000000000
+      internalID: -8456485908597392635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 306
+        width: 131
+        height: 106
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a69d9fed6505afa0800000000000000
+      internalID: -5790215776185248093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_48
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 308
+        width: 131
+        height: 105
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7a8e5a2f980ac60800000000000000
+      internalID: 7827407827628500959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 308
+        width: 130
+        height: 105
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97308fc274a6caca0800000000000000
+      internalID: -6004307349262040199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_50
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 306
+        width: 131
+        height: 107
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e974787940c86e120800000000000000
+      internalID: 2442793799245055902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_51
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 303
+        width: 131
+        height: 110
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794dc5037e3d015e0800000000000000
+      internalID: -1940818449494387561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_52
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 300
+        width: 132
+        height: 114
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cb0105b069ad3f0800000000000000
+      internalID: -875222202238059383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_53
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 293
+        width: 133
+        height: 119
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe46d21867059a7e0800000000000000
+      internalID: -1753782109980498705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_54
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 287
+        width: 131
+        height: 124
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e93c6ec512901f0800000000000000
+      internalID: -1078293952886235524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_55
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 282
+        width: 131
+        height: 129
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968bb722ed11b7450800000000000000
+      internalID: 6087478967080302697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_56
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 278
+        width: 131
+        height: 136
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976b61d4bf43e32e0800000000000000
+      internalID: -2144218118647007623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_57
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 271
+        width: 131
+        height: 141
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f19bca27b0e69f0800000000000000
+      internalID: -473428323675332761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_58
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 267
+        width: 127
+        height: 147
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bab46cc5056df20800000000000000
+      internalID: 3447030924192754480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 111
+        width: 123
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5aac5491947f180800000000000000
+      internalID: -9081709750675397165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 107
+        width: 122
+        height: 157
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cb367c6a5c57550800000000000000
+      internalID: 6158045385599466510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_61
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 103
+        width: 122
+        height: 161
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cc45323e2d35b90800000000000000
+      internalID: -7254222701771568111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_62
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 97
+        width: 125
+        height: 167
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1859868959b415bd0800000000000000
+      internalID: -2643248400410569343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_63
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 91
+        width: 131
+        height: 174
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d02decc43cb89f40800000000000000
+      internalID: 5735541060418740432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_64
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 85
+        width: 136
+        height: 179
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d21fc1e405f4e90800000000000000
+      internalID: -7039319396133556980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_65
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 83
+        width: 139
+        height: 182
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26289d3dad8e1b6b0800000000000000
+      internalID: -5282184861374119326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_66
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 81
+        width: 138
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94a8b8e25eb5fae0800000000000000
+      internalID: -1516096436239293285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_67
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 81
+        width: 135
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d8c18339f339d0800000000000000
+      internalID: -2795616944050876042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_68
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 82
+        width: 128
+        height: 182
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad418aea09794c6b0800000000000000
+      internalID: -5276926215710042918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_69
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 83
+        width: 122
+        height: 181
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a063fb8394bdd00800000000000000
+      internalID: 998472250467682895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_70
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 83
+        width: 117
+        height: 181
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a7e7d8b0ced8ef0800000000000000
+      internalID: -104167681996981665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_71
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 84
+        width: 113
+        height: 181
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241134c1f92611100800000000000000
+      internalID: 76951104155488578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_72
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 78
+        width: 108
+        height: 184
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e1e39be7c17fe70800000000000000
+      internalID: 9148812498625764994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash5_73
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 73
+        width: 108
+        height: 189
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e0012377841cde0800000000000000
+      internalID: -1314689939437253097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

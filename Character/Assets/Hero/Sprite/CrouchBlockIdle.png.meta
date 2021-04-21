@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: e0fd55c13b76a144dac8fdc1c8e146b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8110458568659835479
+    second: CrouchBlockIdle_0
+  - first:
+      213: 3826839619311543576
+    second: CrouchBlockIdle_1
+  - first:
+      213: -945009484795249777
+    second: CrouchBlockIdle_2
+  - first:
+      213: -5296353973859971202
+    second: CrouchBlockIdle_3
+  - first:
+      213: 3130693284320416079
+    second: CrouchBlockIdle_4
+  - first:
+      213: 8883380887803129686
+    second: CrouchBlockIdle_5
+  - first:
+      213: -3792165074399893896
+    second: CrouchBlockIdle_6
+  - first:
+      213: -1662473538547262054
+    second: CrouchBlockIdle_7
+  - first:
+      213: 843178315741052082
+    second: CrouchBlockIdle_8
+  - first:
+      213: -1955415719902553759
+    second: CrouchBlockIdle_9
+  - first:
+      213: -3148073186598162564
+    second: CrouchBlockIdle_10
+  - first:
+      213: 7121526291478578750
+    second: CrouchBlockIdle_11
+  - first:
+      213: -7665754879629434519
+    second: CrouchBlockIdle_12
+  - first:
+      213: -8893568270969536588
+    second: CrouchBlockIdle_13
+  - first:
+      213: -8236783933712389350
+    second: CrouchBlockIdle_14
+  - first:
+      213: -7751190909755690157
+    second: CrouchBlockIdle_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrouchBlockIdle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 886
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a1e7ed8132e8070800000000000000
+      internalID: 8110458568659835479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 887
+        width: 136
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815a479bb5aab1530800000000000000
+      internalID: 3826839619311543576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 884
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b776561e6a2e2f0800000000000000
+      internalID: -945009484795249777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 744
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f095f3f129f76b0800000000000000
+      internalID: -5296353973859971202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 747
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f419e9874f4727b20800000000000000
+      internalID: 3130693284320416079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 748
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65feffde9db184b70800000000000000
+      internalID: 8883380887803129686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 610
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87660c2e4f58f5bc0800000000000000
+      internalID: -3792165074399893896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 608
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d5766ff15bde8e0800000000000000
+      internalID: -1662473538547262054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 605
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcbe08f53293bb00800000000000000
+      internalID: 843178315741052082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 468
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1695ef253c7fcd4e0800000000000000
+      internalID: -1955415719902553759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 468
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f62e1bd1ccf44d0800000000000000
+      internalID: -3148073186598162564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 465
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e368f2e3e6eb4d260800000000000000
+      internalID: 7121526291478578750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 325
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96168784d84cd9590800000000000000
+      internalID: -7665754879629434519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 325
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bffc2717c2b39480800000000000000
+      internalID: -8893568270969536588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 327
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bad6317a011bd80800000000000000
+      internalID: -8236783933712389350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrouchBlockIdle_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 187
+        width: 135
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35376c56fec3e6490800000000000000
+      internalID: -7751190909755690157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

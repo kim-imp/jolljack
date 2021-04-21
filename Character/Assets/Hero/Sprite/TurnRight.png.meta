@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 4d5f3c48c760078479d23f86c782a834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2875223941467592209
+    second: TurnRight_0
+  - first:
+      213: 9103979729014816014
+    second: TurnRight_1
+  - first:
+      213: 3152709256562929616
+    second: TurnRight_2
+  - first:
+      213: -8566342882023240257
+    second: TurnRight_3
+  - first:
+      213: 5124163118331290819
+    second: TurnRight_4
+  - first:
+      213: 7579248939976960959
+    second: TurnRight_5
+  - first:
+      213: 1898403052047087785
+    second: TurnRight_6
+  - first:
+      213: 2942573021457926785
+    second: TurnRight_7
+  - first:
+      213: -2614127162019701069
+    second: TurnRight_8
+  - first:
+      213: 2235096102186136343
+    second: TurnRight_9
+  - first:
+      213: -8566054531170513229
+    second: TurnRight_10
+  - first:
+      213: -6596923441851681475
+    second: TurnRight_11
+  - first:
+      213: -5845813404370629054
+    second: TurnRight_12
+  - first:
+      213: -6272332372034296911
+    second: TurnRight_13
+  - first:
+      213: 7400186939245190705
+    second: TurnRight_14
+  - first:
+      213: 8507919919356189970
+    second: TurnRight_15
+  - first:
+      213: 648478463774089684
+    second: TurnRight_16
+  - first:
+      213: 7104065608824171705
+    second: TurnRight_17
+  - first:
+      213: 4878355614802859603
+    second: TurnRight_18
+  - first:
+      213: 1953709768427892512
+    second: TurnRight_19
+  - first:
+      213: -9180006814130386592
+    second: TurnRight_20
+  - first:
+      213: -4850468773433498814
+    second: TurnRight_21
+  - first:
+      213: -4972643189902307534
+    second: TurnRight_22
+  - first:
+      213: 6050054254028438094
+    second: TurnRight_23
+  - first:
+      213: 3681192868373461473
+    second: TurnRight_24
+  - first:
+      213: 3095511641969588993
+    second: TurnRight_25
+  - first:
+      213: -7347440862483642901
+    second: TurnRight_26
+  - first:
+      213: -2743752455798645106
+    second: TurnRight_27
+  - first:
+      213: 5011715144646490772
+    second: TurnRight_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TurnRight_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 830
+        width: 119
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116dfd0f0f8d6e720800000000000000
+      internalID: 2875223941467592209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 831
+        width: 119
+        height: 187
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0df84e1455d75e70800000000000000
+      internalID: 9103979729014816014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 826
+        width: 119
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfe4857d5ca0cb20800000000000000
+      internalID: 3152709256562929616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 827
+        width: 119
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd0fc4098c3e1980800000000000000
+      internalID: -8566342882023240257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 822
+        width: 117
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c46b47053fac1740800000000000000
+      internalID: 5124163118331290819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 828
+        width: 114
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb259b11c6ee2960800000000000000
+      internalID: 7579248939976960959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 822
+        width: 111
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8b8c5848b785a10800000000000000
+      internalID: 1898403052047087785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 612
+        width: 109
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ac5a5929e16d820800000000000000
+      internalID: 2942573021457926785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 630
+        width: 104
+        height: 190
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be9d164231c8bbd0800000000000000
+      internalID: -2614127162019701069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 618
+        width: 98
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7133aa91018a40f10800000000000000
+      internalID: 2235096102186136343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 610
+        width: 91
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bec4fee9c24f1980800000000000000
+      internalID: -8566054531170513229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 623
+        width: 89
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35bbf5e4150374a0800000000000000
+      internalID: -6596923441851681475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 622
+        width: 88
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e85416eaf7fdea0800000000000000
+      internalID: -5845813404370629054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 626
+        width: 87
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b366bb90f234f8a0800000000000000
+      internalID: -6272332372034296911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_14
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 609
+        width: 87
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ed13930deb2b660800000000000000
+      internalID: 7400186939245190705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 618
+        width: 91
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d12baf614321670800000000000000
+      internalID: 8507919919356189970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 413
+        width: 95
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1eebd1abbdff800800000000000000
+      internalID: 648478463774089684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 410
+        width: 96
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bca8034806b69260800000000000000
+      internalID: 7104065608824171705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 405
+        width: 93
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3565b54c59663b340800000000000000
+      internalID: 4878355614802859603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_19
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 397
+        width: 87
+        height: 190
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fea55eea8fc1b10800000000000000
+      internalID: 1953709768427892512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_20
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 414
+        width: 78
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069c718b0701a9080800000000000000
+      internalID: -9180006814130386592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_21
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 404
+        width: 75
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2432f55795cafacb0800000000000000
+      internalID: -4850468773433498814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 404
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f8b1f6d5f9dfab0800000000000000
+      internalID: -4972643189902307534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_23
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 408
+        width: 76
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ab43b1a4c16f350800000000000000
+      internalID: 6050054254028438094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_24
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 412
+        width: 78
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9f915f869361330800000000000000
+      internalID: 3681192868373461473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_25
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 419
+        width: 78
+        height: 184
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bfea9007775fa20800000000000000
+      internalID: 3095511641969588993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_26
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 420
+        width: 79
+        height: 183
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be50977c675a80a90800000000000000
+      internalID: -7347440862483642901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 193
+        width: 79
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e1480bdab3ce9d0800000000000000
+      internalID: -2743752455798645106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TurnRight_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 207
+        width: 80
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a7910fe503d8540800000000000000
+      internalID: 5011715144646490772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

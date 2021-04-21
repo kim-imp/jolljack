@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 1c29e2684e0dc98438fd6f72815c3036
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2760350216790011540
+    second: DrawSword_0
+  - first:
+      213: 7650598239393083207
+    second: DrawSword_1
+  - first:
+      213: 6639011367014535010
+    second: DrawSword_2
+  - first:
+      213: -8951286448117379227
+    second: DrawSword_3
+  - first:
+      213: 8155606984598209171
+    second: DrawSword_4
+  - first:
+      213: -4675455535872661967
+    second: DrawSword_5
+  - first:
+      213: -8611924277220340762
+    second: DrawSword_6
+  - first:
+      213: -8355300669292181962
+    second: DrawSword_7
+  - first:
+      213: 1545648745685581562
+    second: DrawSword_8
+  - first:
+      213: 6086250943886578818
+    second: DrawSword_9
+  - first:
+      213: -1596620006442443008
+    second: DrawSword_10
+  - first:
+      213: 7109590221932309850
+    second: DrawSword_11
+  - first:
+      213: -2202513964135484653
+    second: DrawSword_12
+  - first:
+      213: -60121193126293535
+    second: DrawSword_13
+  - first:
+      213: 7538628808979666017
+    second: DrawSword_14
+  - first:
+      213: -3506791803409271821
+    second: DrawSword_15
+  - first:
+      213: -4204806331560466387
+    second: DrawSword_16
+  - first:
+      213: 2529553387174701160
+    second: DrawSword_17
+  - first:
+      213: 4197296940380747047
+    second: DrawSword_18
+  - first:
+      213: 5440574657330739148
+    second: DrawSword_19
+  - first:
+      213: -8893794104781421747
+    second: DrawSword_20
+  - first:
+      213: -3320414203708591520
+    second: DrawSword_21
+  - first:
+      213: 4488185798821131912
+    second: DrawSword_22
+  - first:
+      213: 6252887175119642320
+    second: DrawSword_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DrawSword_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 832
+        width: 116
+        height: 187
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c611f805a1441b9d0800000000000000
+      internalID: -2760350216790011540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 830
+        width: 113
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fe04a60926c2a60800000000000000
+      internalID: 7650598239393083207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 831
+        width: 106
+        height: 190
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f8eaec9a1822c50800000000000000
+      internalID: 6639011367014535010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 829
+        width: 95
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f0231c664a6c380800000000000000
+      internalID: -8951286448117379227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 826
+        width: 98
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cbac97598e2170800000000000000
+      internalID: 8155606984598209171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_5
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 822
+        width: 108
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1362d2536f17d1fb0800000000000000
+      internalID: -4675455535872661967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_6
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 826
+        width: 115
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb08bf6f7c4c7880800000000000000
+      internalID: -8611924277220340762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_7
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 826
+        width: 123
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636814f3f420c0c80800000000000000
+      internalID: -8355300669292181962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 620
+        width: 130
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afefd12585f337510800000000000000
+      internalID: 1545648745685581562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 612
+        width: 136
+        height: 205
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284de34bcf4b67450800000000000000
+      internalID: 6086250943886578818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 602
+        width: 139
+        height: 208
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f57ba309aa7d9e0800000000000000
+      internalID: -1596620006442443008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 612
+        width: 141
+        height: 201
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5daddc73a65aa260800000000000000
+      internalID: 7109590221932309850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_12
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 631
+        width: 152
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313fdd218391f61e0800000000000000
+      internalID: -2202513964135484653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_13
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 633
+        width: 154
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef0c38e7186a2ff0800000000000000
+      internalID: -60121193126293535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 412
+        width: 146
+        height: 185
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16452ccd5f69e9860800000000000000
+      internalID: 7538628808979666017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 405
+        width: 137
+        height: 185
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3f9804f6f555fc0800000000000000
+      internalID: -3506791803409271821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 399
+        width: 134
+        height: 201
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2866026be685a5c0800000000000000
+      internalID: -4204806331560466387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 389
+        width: 130
+        height: 210
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682fea4767ca1320800000000000000
+      internalID: 2529553387174701160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 388
+        width: 126
+        height: 211
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7257a3c345bcf3a30800000000000000
+      internalID: 4197296940380747047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 381
+        width: 122
+        height: 207
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7f03053ddc08b40800000000000000
+      internalID: 5440574657330739148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_20
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 388
+        width: 119
+        height: 203
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434a0f0265e29480800000000000000
+      internalID: -8893794104781421747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 178
+        width: 119
+        height: 200
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b9c0cfd48be1d0800000000000000
+      internalID: -3320414203708591520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_22
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 177
+        width: 119
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886bfa0643d394e30800000000000000
+      internalID: 4488185798821131912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrawSword_23
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 182
+        width: 119
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de1a9da1c7b6c650800000000000000
+      internalID: 6252887175119642320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
