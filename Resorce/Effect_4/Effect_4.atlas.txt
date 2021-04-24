@@ -1,0 +1,69 @@
+
+Effect_4.png
+size: 1009,1009
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000s_0002_ef_3
+  rotate: true
+  xy: 2, 189
+  size: 296, 559
+  orig: 296, 559
+  offset: 0, 0
+  index: -1
+_0000s_0002_ef_3_01
+  rotate: true
+  xy: 229, 514
+  size: 230, 296
+  orig: 230, 296
+  offset: 0, 0
+  index: -1
+ef_light
+  rotate: false
+  xy: 815, 946
+  size: 62, 61
+  orig: 73, 73
+  offset: 5, 6
+  index: -1
+ef_line
+  rotate: false
+  xy: 2, 883
+  size: 714, 63
+  orig: 722, 157
+  offset: 0, 44
+  index: -1
+ef_line02
+  rotate: false
+  xy: 99, 948
+  size: 714, 59
+  orig: 722, 157
+  offset: 0, 44
+  index: -1
+ef_sk1
+  rotate: false
+  xy: 2, 527
+  size: 225, 217
+  orig: 244, 223
+  offset: 19, 0
+  index: -1
+ef_smoke01
+  rotate: false
+  xy: 2, 949
+  size: 95, 58
+  orig: 95, 58
+  offset: 0, 0
+  index: -1
+ef_wind
+  rotate: false
+  xy: 527, 487
+  size: 343, 257
+  orig: 462, 369
+  offset: 96, 57
+  index: -1
+ef_wind_type1
+  rotate: false
+  xy: 2, 746
+  size: 1005, 135
+  orig: 1172, 357
+  offset: 75, 133
+  index: -1

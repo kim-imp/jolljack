@@ -9,6 +9,8 @@ public class Hero : MonoBehaviour
 
     public GameObject attackRange;
     public GameObject attackRange2;
+    public GameObject SwordFlag;
+    public Transform FlagPoint;
 
     float moveInput;
 
@@ -97,6 +99,19 @@ public class Hero : MonoBehaviour
                 comboStep += 1;
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            anim.Play("Charge");
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            anim.Play("WheelWind");
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            anim.Play("SwordFlag");
+        }
     }
 
     public void ComboPossible()
@@ -128,6 +143,7 @@ public class Hero : MonoBehaviour
         comboStep = 0;
     }
 
+    // 나중에 스킬별로 둬서 데미지차이
     public void AttackRangeOn()
     {
         attackRange.SetActive(true);
@@ -153,6 +169,11 @@ public class Hero : MonoBehaviour
     void LookLeft()
     {
         transform.localScale = new Vector3(-1, 1, 1);
+    }
+
+    public void SpawnSwordFlag()
+    {
+        Instantiate(SwordFlag, FlagPoint.position, FlagPoint.rotation);
     }
 
     IEnumerator AttackRMove()

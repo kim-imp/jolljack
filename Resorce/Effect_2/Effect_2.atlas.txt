@@ -1,0 +1,145 @@
+
+Effect_2.png
+size: 958,958
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_rd
+  rotate: false
+  xy: 2, 776
+  size: 134, 134
+  orig: 144, 143
+  offset: 5, 5
+  index: -1
+Fx_smoke_1
+  rotate: false
+  xy: 2, 364
+  size: 230, 216
+  orig: 232, 216
+  offset: 1, 0
+  index: -1
+Fx_smoke_2
+  rotate: false
+  xy: 2, 364
+  size: 230, 216
+  orig: 232, 216
+  offset: 1, 0
+  index: -1
+Fx_smoke_3
+  rotate: false
+  xy: 679, 405
+  size: 230, 213
+  orig: 232, 216
+  offset: 0, 1
+  index: -1
+Fx_smoke_4
+  rotate: false
+  xy: 452, 504
+  size: 225, 213
+  orig: 232, 216
+  offset: 4, 0
+  index: -1
+Fx_smoke_5
+  rotate: false
+  xy: 681, 620
+  size: 228, 208
+  orig: 232, 216
+  offset: 3, 0
+  index: -1
+Fx_tornado
+  rotate: false
+  xy: 2, 2
+  size: 276, 276
+  orig: 281, 281
+  offset: 2, 2
+  index: -1
+Fx_tr_particle
+  rotate: true
+  xy: 166, 853
+  size: 103, 132
+  orig: 111, 140
+  offset: 4, 4
+  index: -1
+fx_arrow_big
+  rotate: false
+  xy: 2, 582
+  size: 448, 135
+  orig: 500, 184
+  offset: 14, 21
+  index: -1
+fx_blue
+  rotate: true
+  xy: 2, 912
+  size: 44, 162
+  orig: 44, 166
+  offset: 0, 3
+  index: -1
+fx_circle_1
+  rotate: false
+  xy: 138, 732
+  size: 298, 118
+  orig: 327, 143
+  offset: 12, 14
+  index: -1
+fx_circle_2
+  rotate: false
+  xy: 300, 852
+  size: 250, 104
+  orig: 274, 113
+  offset: 9, 3
+  index: -1
+fx_won_02
+  rotate: false
+  xy: 731, 830
+  size: 210, 126
+  orig: 225, 136
+  offset: 8, 4
+  index: -1
+fx_won_03
+  rotate: false
+  xy: 552, 847
+  size: 177, 109
+  orig: 188, 119
+  offset: 8, 5
+  index: -1
+fx_won_04
+  rotate: true
+  xy: 537, 155
+  size: 248, 409
+  orig: 255, 418
+  offset: 3, 4
+  index: -1
+fx_won_05
+  rotate: true
+  xy: 234, 280
+  size: 222, 301
+  orig: 232, 314
+  offset: 7, 7
+  index: -1
+fx_won_arrow_01
+  rotate: false
+  xy: 438, 719
+  size: 241, 126
+  orig: 243, 128
+  offset: 1, 1
+  index: -1
+
+Effect_22.png
+size: 872,872
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_con_1
+  rotate: true
+  xy: 592, 586
+  size: 284, 278
+  orig: 400, 400
+  offset: 56, 63
+  index: -1
+Fx_thrnd
+  rotate: false
+  xy: 2, 299
+  size: 588, 571
+  orig: 592, 573
+  offset: 2, 1
+  index: -1

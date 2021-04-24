@@ -264,6 +264,7 @@ Transform:
   - {fileID: 2064270465}
   - {fileID: 463786945}
   - {fileID: 189751605}
+  - {fileID: 2035213940}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -302,6 +303,9 @@ MonoBehaviour:
   Jump: 5
   attackRange: {fileID: 463786944}
   attackRange2: {fileID: 189751603}
+  SwordFlag: {fileID: 353978033028645030, guid: aef380ef0880c4d49b75cc4ec23479a3,
+    type: 3}
+  FlagPoint: {fileID: 2035213940}
   isGrounded: 0
   groundCheck: {fileID: 2064270465}
   checkRadius: 0.01
@@ -551,6 +555,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2035213939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035213940}
+  m_Layer: 0
+  m_Name: FlagPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035213940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035213939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.511, y: 1.059, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 332288360}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064270464
 GameObject:
