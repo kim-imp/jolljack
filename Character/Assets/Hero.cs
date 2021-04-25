@@ -10,6 +10,7 @@ public class Hero : MonoBehaviour
     public GameObject attackRange;
     public GameObject attackRange2;
     public GameObject SwordFlag;
+    public GameObject WheelRange;
     public Transform FlagPoint;
 
     float moveInput;
@@ -102,6 +103,7 @@ public class Hero : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            CanMove = false;
             anim.Play("Charge");
         }
         if (Input.GetKeyDown(KeyCode.W))
@@ -174,6 +176,29 @@ public class Hero : MonoBehaviour
     public void SpawnSwordFlag()
     {
         Instantiate(SwordFlag, FlagPoint.position, FlagPoint.rotation);
+    }
+
+    public void Charge()
+    {
+        if (isLookR)
+        {
+            rigid.AddForce(Vector2.right * 5f, ForceMode2D.Impulse);
+            anim.SetBool("IsLookR", true);
+        }
+        else if (!isLookR)
+        {
+            rigid.AddForce(Vector2.left * 5f, ForceMode2D.Impulse);
+            anim.SetBool("IsLookR", false);
+        }
+    }
+
+    public void StartWheelWind()
+    {
+        WheelRange.SetActive(true);
+    }
+    public void EndWheelWind()
+    {
+        WheelRange.SetActive(false);
     }
 
     IEnumerator AttackRMove()
