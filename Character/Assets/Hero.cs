@@ -6,11 +6,16 @@ public class Hero : MonoBehaviour
 {
     public float Speed = 3f;
     public float Jump = 100f;
+    public float Fury = 0f;
 
     public GameObject attackRange;
     public GameObject attackRange2;
     public GameObject SwordFlag;
+    public GameObject BSwordFlag;
+    public GameObject LSwordFlag;
+    public GameObject LBSwordFlag;
     public GameObject WheelRange;
+    public GameObject BWheelRange;
     public Transform FlagPoint;
 
     float moveInput;
@@ -28,6 +33,11 @@ public class Hero : MonoBehaviour
     Vector3 movement;
     bool isjump = false;
     bool isLookR = true;
+    bool isBerserk = false;
+    bool isQCool = false;
+    bool isWCool = false;
+    bool isECool = false;
+
     bool comboPossible;
     int comboStep;
     bool CanMove = true;
@@ -103,17 +113,59 @@ public class Hero : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            CanMove = false;
-            anim.Play("Charge");
+            if (!isQCool)
+            {
+                CanMove = false;
+                if (isBerserk)
+                    anim.Play("BCharge");
+                if (!isBerserk)
+                    anim.Play("Charge");
+
+                StartCoroutine(QCoolTime(2f));
+            }
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            anim.Play("WheelWind");
+            if(!isWCool)
+            {
+                anim.Play("WheelWind");
+                StartCoroutine(WCoolTime(7f));
+            }
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            anim.Play("SwordFlag");
+            if(!isECool)
+            {
+                CanMove = false;
+                anim.Play("SwordFlag");
+                StartCoroutine(ECoolTime(4f));
+            }
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if(!isBerserk)
+            {
+                CanMove = false;
+                anim.Play("Berserk");
+            }
+        }
+
+        if(Fury < 0)
+        {
+            Fury = 0;
+            isBerserk = false;
+        }
+        else if (Fury > 0)
+        {
+            Fury -= 10 * Time.deltaTime;
+        }
+        print(isBerserk);
+    }
+
+    public void Berserk()
+    {
+        isBerserk = true;
+        Fury = 100.0f;
     }
 
     public void ComboPossible()
@@ -175,10 +227,36 @@ public class Hero : MonoBehaviour
 
     public void SpawnSwordFlag()
     {
-        Instantiate(SwordFlag, FlagPoint.position, FlagPoint.rotation);
+        if (isLookR)
+        {
+            if (isBerserk)
+                Instantiate(BSwordFlag, FlagPoint.position, FlagPoint.rotation);
+            else if (!isBerserk)
+                Instantiate(SwordFlag, FlagPoint.position, FlagPoint.rotation);
+        }
+        else if (!isLookR)
+        {
+            if (isBerserk)
+                Instantiate(LBSwordFlag, FlagPoint.position, FlagPoint.rotation);
+            else if (!isBerserk)
+                Instantiate(LSwordFlag, FlagPoint.position, FlagPoint.rotation);
+        }
     }
 
     public void Charge()
+    {
+        if (isLookR)
+        {
+            rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+            anim.SetBool("IsLookR", true);
+        }
+        else if (!isLookR)
+        {
+            rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+            anim.SetBool("IsLookR", false);
+        }
+    }
+    public void BCharge()
     {
         if (isLookR)
         {
@@ -194,11 +272,17 @@ public class Hero : MonoBehaviour
 
     public void StartWheelWind()
     {
-        WheelRange.SetActive(true);
+        if(isBerserk)
+            BWheelRange.SetActive(true);
+        if (!isBerserk)
+            WheelRange.SetActive(true);
     }
     public void EndWheelWind()
     {
-        WheelRange.SetActive(false);
+        if (isBerserk)
+            BWheelRange.SetActive(false);
+        if (!isBerserk)
+            WheelRange.SetActive(false);
     }
 
     IEnumerator AttackRMove()
@@ -210,5 +294,36 @@ public class Hero : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+    }
+
+    IEnumerator QCoolTime(float cool)
+    {
+        isQCool = true;
+        while (cool > 1.0f)
+        {
+            cool -= Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+        isQCool = false;
+    }
+    IEnumerator WCoolTime(float cool)
+    {
+        isWCool = true;
+        while (cool > 1.0f)
+        {
+            cool -= Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+        isWCool = false;
+    }
+    IEnumerator ECoolTime(float cool)
+    {
+        isECool = true;
+        while (cool > 1.0f)
+        {
+            cool -= Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+        isECool = false;
     }
 }

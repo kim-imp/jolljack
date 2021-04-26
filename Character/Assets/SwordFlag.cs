@@ -21,4 +21,13 @@ public class SwordFlag : MonoBehaviour
 
         Destroy(gameObject, 2f);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
+
+    }
 }
