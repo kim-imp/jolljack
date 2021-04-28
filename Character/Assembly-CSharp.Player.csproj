@@ -661,12 +661,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BSwordFlag.cs" />
-    <Compile Include="Assets\EnemyHit.cs" />
-    <Compile Include="Assets\Hero.cs" />
-    <Compile Include="Assets\LBSwordFlag.cs" />
-    <Compile Include="Assets\LSwordFlag.cs" />
-    <Compile Include="Assets\SwordFlag.cs" />
+    <Compile Include="Assets\Hero\BSwordFlag.cs" />
+    <Compile Include="Assets\Hero\EnemyHit.cs" />
+    <Compile Include="Assets\Hero\Hero.cs" />
+    <Compile Include="Assets\Hero\LBSwordFlag.cs" />
+    <Compile Include="Assets\Hero\LSwordFlag.cs" />
+    <Compile Include="Assets\Hero\SwordFlag.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
