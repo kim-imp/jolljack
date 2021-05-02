@@ -127,7 +127,7 @@ Material:
     - _DistortionStrengthScaled: 0
     - _DstBlend: 10
     - _EmissionEnabled: 0
-    - _Emissive: 5
+    - _Emissive: 4
     - _EnableExternalAlpha: 0
     - _Exposure: 1
     - _FlipbookMode: 0
@@ -142,7 +142,7 @@ Material:
     - _OcclusionStrength: 1
     - _OutlineSize: 1
     - _Parallax: 0.02
-    - _Repeat: 2
+    - _Repeat: 4.97
     - _Rotation: 0
     - _Shininess: 0.2
     - _SmoothnessTextureChannel: 0
