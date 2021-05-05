@@ -254,6 +254,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.31666666
+    functionName: SlashOn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.38333333
     functionName: ComboPossible
     data: 
@@ -268,7 +275,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.7
+  - time: 0.5833333
     functionName: Combo
     data: 
     objectReferenceParameter: {fileID: 0}

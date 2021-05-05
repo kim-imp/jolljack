@@ -662,11 +662,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Hero\BSwordFlag.cs" />
+    <Compile Include="Assets\Hero\BerserkingOff.cs" />
+    <Compile Include="Assets\Hero\ChargeOff.cs" />
     <Compile Include="Assets\Hero\EnemyHit.cs" />
     <Compile Include="Assets\Hero\Hero.cs" />
     <Compile Include="Assets\Hero\LBSwordFlag.cs" />
     <Compile Include="Assets\Hero\LSwordFlag.cs" />
+    <Compile Include="Assets\Hero\SlashOff.cs" />
     <Compile Include="Assets\Hero\SwordFlag.cs" />
+    <Compile Include="Assets\Hero\WheelOff.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hero\Effect\shader_animatingTile.shader" />

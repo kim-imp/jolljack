@@ -19,6 +19,18 @@ public class Hero : MonoBehaviour
     public GameObject BWheelRange;
     public Transform FlagPoint;
 
+    public GameObject Slash;
+    public GameObject SlashR;
+    public GameObject Slash2;
+    public GameObject SlashR2;
+    public GameObject Wheel;
+    public GameObject BWheel;
+    public GameObject EChargeR;
+    public GameObject ECharge;
+    public GameObject EBerserk;
+    public GameObject EBerserking;
+
+
     float moveInput;
 
 
@@ -41,7 +53,7 @@ public class Hero : MonoBehaviour
 
     bool comboPossible;
     int comboStep;
-    bool CanMove = true;
+    public bool CanMove = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -96,7 +108,7 @@ public class Hero : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
-            if(comboStep == 0)
+            if (comboStep == 0)
             {
                 CanMove = false;
                 if (isLookR)
@@ -105,7 +117,7 @@ public class Hero : MonoBehaviour
                     anim.Play("AttackL");
                 comboStep = 1;
             }
-            if(comboPossible)
+            if (comboPossible)
             {
                 comboPossible = false;
                 comboStep += 1;
@@ -127,7 +139,7 @@ public class Hero : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            if(!isWCool)
+            if (!isWCool)
             {
                 anim.Play("WheelWind");
                 StartCoroutine(WCoolTime(7f));
@@ -135,7 +147,7 @@ public class Hero : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if(!isECool)
+            if (!isECool)
             {
                 CanMove = false;
                 anim.Play("SwordFlag");
@@ -144,14 +156,14 @@ public class Hero : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-            if(!isBerserk)
+            if (!isBerserk)
             {
                 CanMove = false;
                 anim.Play("Berserk");
             }
         }
 
-        if(Fury < 0)
+        if (Fury < 0)
         {
             Fury = 0;
             isBerserk = false;
@@ -163,8 +175,16 @@ public class Hero : MonoBehaviour
         print(isBerserk);
     }
 
+    public void Berserking()
+    {
+        Vector3 Ep = new Vector3(transform.position.x, transform.position.y + .5f);
+        Instantiate(EBerserking, Ep, transform.rotation, gameObject.transform);
+    }
+
     public void Berserk()
     {
+        Vector3 Ep = new Vector3(transform.position.x, transform.position.y + .5f);
+        Instantiate(EBerserk, Ep, transform.rotation, gameObject.transform);
         isBerserk = true;
         Fury = 100.0f;
     }
@@ -176,7 +196,7 @@ public class Hero : MonoBehaviour
 
     public void Combo()
     {
-        if(comboStep == 2)
+        if (comboStep == 2)
         {
             if (isLookR)
             {
@@ -195,6 +215,8 @@ public class Hero : MonoBehaviour
     {
         comboPossible = false;
         CanMove = true;
+        WheelRange.SetActive(false);
+        BWheelRange.SetActive(false);
         comboStep = 0;
     }
 
@@ -246,26 +268,36 @@ public class Hero : MonoBehaviour
 
     public void Charge()
     {
+        Vector3 Ep;
         if (isLookR)
         {
+            Ep = new Vector3(transform.position.x, transform.position.y + 1);
+            Instantiate(EChargeR, Ep, transform.rotation, gameObject.transform);
             rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
             anim.SetBool("IsLookR", true);
         }
         else if (!isLookR)
         {
+            Ep = new Vector3(transform.position.x, transform.position.y + 1);
+            Instantiate(ECharge, Ep, transform.rotation, gameObject.transform);
             rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
             anim.SetBool("IsLookR", false);
         }
     }
     public void BCharge()
     {
+        Vector3 Ep;
         if (isLookR)
         {
+            Ep = new Vector3(transform.position.x, transform.position.y + 1);
+            Instantiate(EChargeR, Ep, transform.rotation, gameObject.transform);
             rigid.AddForce(Vector2.right * 5f, ForceMode2D.Impulse);
             anim.SetBool("IsLookR", true);
         }
         else if (!isLookR)
         {
+            Ep = new Vector3(transform.position.x, transform.position.y + 1);
+            Instantiate(ECharge, Ep, transform.rotation, gameObject.transform);
             rigid.AddForce(Vector2.left * 5f, ForceMode2D.Impulse);
             anim.SetBool("IsLookR", false);
         }
@@ -274,9 +306,15 @@ public class Hero : MonoBehaviour
     public void StartWheelWind()
     {
         if(isBerserk)
+        {
             BWheelRange.SetActive(true);
+            Instantiate(BWheel, transform.position, transform.rotation, gameObject.transform);
+        }
         if (!isBerserk)
+        {
             WheelRange.SetActive(true);
+            Instantiate(Wheel, transform.position, transform.rotation, gameObject.transform);
+        }
     }
     public void EndWheelWind()
     {
@@ -334,6 +372,34 @@ public class Hero : MonoBehaviour
         CanMove = false;
     }
 
+    public void SlashOn()
+    {
+        Vector3 EP;
+        if (isLookR)
+        {
+            EP = new Vector3(transform.position.x + 0.5f, transform.position.y + 1);
+            Instantiate(SlashR, EP, transform.rotation, gameObject.transform);
+        }
+        if (!isLookR)
+        {
+            EP = new Vector3(transform.position.x - 0.5f, transform.position.y + 1);
+            Instantiate(Slash, EP, transform.rotation, gameObject.transform);
+        }
+    }
+    public void SlashOn2()
+    {
+        Vector3 EP;
+        if (isLookR)
+        {
+            EP = new Vector3(transform.position.x + 0.5f, transform.position.y + 1);
+            Instantiate(SlashR2, EP, transform.rotation, gameObject.transform);
+        }
+        if (!isLookR)
+        {
+            EP = new Vector3(transform.position.x - 0.5f, transform.position.y + 1);
+            Instantiate(Slash2, EP, transform.rotation, gameObject.transform);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Enemy")
