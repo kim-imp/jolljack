@@ -7,7 +7,7 @@ public class Hero : MonoBehaviour
     public float Speed = 3f;
     public float Jump = 100f;
     public float Fury = 0f;
-    public int HP = 3;
+    public int HP = 100;
 
     public GameObject attackRange;
     public GameObject attackRange2;
@@ -50,6 +50,7 @@ public class Hero : MonoBehaviour
     bool isQCool = false;
     bool isWCool = false;
     bool isECool = false;
+    bool isCanAlive = true;
 
     bool comboPossible;
     int comboStep;
@@ -171,6 +172,10 @@ public class Hero : MonoBehaviour
         else if (Fury > 0)
         {
             Fury -= 10 * Time.deltaTime;
+        }
+        if(HP == 0)
+        {
+
         }
         print(isBerserk);
     }
@@ -368,7 +373,21 @@ public class Hero : MonoBehaviour
 
     public void HPMinus()
     {
-        HP--;
+        if (HP > 0)
+        {
+            HP -= 40;
+            if (HP <= 0 && isCanAlive == true)
+            {
+                HP = 0;
+                isCanAlive = false;
+                Berserk();
+                Berserking();
+            }
+            if (HP <= 0 && isCanAlive == false)
+            {
+                HP = -1;
+            }
+        }
         CanMove = false;
     }
 
@@ -404,9 +423,9 @@ public class Hero : MonoBehaviour
     {
         if(collision.tag == "Enemy")
         {
-            if(HP == 0)
+            if (HP > 0)
             {
-                anim.Play("Death");
+                anim.Play("Hit");
                 if (isLookR)
                 {
                     rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
@@ -416,14 +435,15 @@ public class Hero : MonoBehaviour
                     rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
                 }
             }
-            else if(HP > 0)
+            else if (HP <= 0)
             {
-                anim.Play("Hit");
+                HP = 0;
+                anim.Play("Death");
                 if (isLookR)
                 {
                     rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
                 }
-                else if(!isLookR)
+                else if (!isLookR)
                 {
                     rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
                 }
