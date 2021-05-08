@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class MonsterAttack : MonoBehaviour
 {
-    Animator anim;
+    GameObject Mon;
 
-    private void OnCollisionEnter(Collision other)
+    void Awake()
     {
-        
+        Mon = GameObject.Find("Slime_A");
     }
 
 
-    void OnCollisionStay2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.tag != "Player")
-            return;
-
-        if (other.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            anim.SetBool("isAttack", true);
+            Mon.GetComponent<MonsterMove>().OnAttack();
+            
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+     if(collision.gameObject.tag == "Player")
+        {
+            Mon.GetComponent<MonsterMove>().OffAttack();
         }
     }
 }
