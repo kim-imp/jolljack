@@ -157,9 +157,10 @@ public class Hero : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-            if (!isBerserk)
+            if (!isBerserk && Fury == 100)
             {
                 CanMove = false;
+
                 anim.Play("Berserk");
             }
         }
@@ -169,14 +170,21 @@ public class Hero : MonoBehaviour
             Fury = 0;
             isBerserk = false;
         }
-        else if (Fury > 0)
+        else if (Fury > 0 && isBerserk == true)
         {
             Fury -= 10 * Time.deltaTime;
+        }
+        else if(Fury < 100 && isBerserk == false)
+        {
+            Fury += 10 * Time.deltaTime;
+            if (Fury > 100)
+                Fury = 100;
         }
         if(HP == 0)
         {
 
         }
+
         print(isBerserk);
     }
 
@@ -191,7 +199,6 @@ public class Hero : MonoBehaviour
         Vector3 Ep = new Vector3(transform.position.x, transform.position.y + .5f);
         Instantiate(EBerserk, Ep, transform.rotation, gameObject.transform);
         isBerserk = true;
-        Fury = 100.0f;
     }
 
     public void ComboPossible()
