@@ -8,6 +8,13 @@ public class Hero : MonoBehaviour
     public float Jump = 100f;
     public float Fury = 0f;
     public int HP = 100;
+    public float QCTime = 2f;
+    public float WCTime = 7f;
+    public float ECTime = 4f;
+    public float NQCTime;
+    public float NWCTime;
+    public float NECTime;
+
 
     public GameObject attackRange;
     public GameObject attackRange2;
@@ -47,9 +54,9 @@ public class Hero : MonoBehaviour
     bool isjump = false;
     bool isLookR = true;
     bool isBerserk = false;
-    bool isQCool = false;
-    bool isWCool = false;
-    bool isECool = false;
+    public bool isQCool = false;
+    public bool isWCool = false;
+    public bool isECool = false;
     bool isCanAlive = true;
 
     bool comboPossible;
@@ -135,7 +142,7 @@ public class Hero : MonoBehaviour
                 if (!isBerserk)
                     anim.Play("Charge");
 
-                StartCoroutine(QCoolTime(2f));
+                StartCoroutine(QCoolTime(QCTime));
             }
         }
         if (Input.GetKeyDown(KeyCode.W))
@@ -143,7 +150,7 @@ public class Hero : MonoBehaviour
             if (!isWCool)
             {
                 anim.Play("WheelWind");
-                StartCoroutine(WCoolTime(7f));
+                StartCoroutine(WCoolTime(WCTime));
             }
         }
         if (Input.GetKeyDown(KeyCode.E))
@@ -152,7 +159,7 @@ public class Hero : MonoBehaviour
             {
                 CanMove = false;
                 anim.Play("SwordFlag");
-                StartCoroutine(ECoolTime(4f));
+                StartCoroutine(ECoolTime(ECTime));
             }
         }
         if (Input.GetKeyDown(KeyCode.R))
@@ -350,31 +357,40 @@ public class Hero : MonoBehaviour
     IEnumerator QCoolTime(float cool)
     {
         isQCool = true;
-        while (cool > 1.0f)
+        NQCTime = cool;
+        while (NQCTime > 0.0f)
         {
-            cool -= Time.deltaTime;
+            NQCTime -= Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
+        if (NQCTime <= 0)
+            NQCTime = 0;
         isQCool = false;
     }
     IEnumerator WCoolTime(float cool)
     {
         isWCool = true;
-        while (cool > 1.0f)
+        NWCTime = cool;
+        while (NWCTime > 0.0f)
         {
-            cool -= Time.deltaTime;
+            NWCTime -= Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
+        if (NWCTime <= 0)
+            NWCTime = 0;
         isWCool = false;
     }
     IEnumerator ECoolTime(float cool)
     {
         isECool = true;
-        while (cool > 1.0f)
+        NECTime = cool;
+        while (NECTime > 0.0f)
         {
-            cool -= Time.deltaTime;
+            NECTime -= Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
+        if (NECTime <= 0)
+            NECTime = 0;
         isECool = false;
     }
 

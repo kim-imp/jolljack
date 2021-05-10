@@ -11,12 +11,27 @@ public class GameManager : MonoBehaviour
     private float MaxHp = 100;
     private float PFury;
     private float MaxFury = 100;
+    private float QCT;
+    private float WCT;
+    private float ECT;
+    private float MQCT;
+    private float MWCT;
+    private float MECT;
 
     [SerializeField]
     private Image HPImage;
 
     [SerializeField]
     private Image FuryImage;
+
+    [SerializeField]
+    private Image QCoolImage;
+    [SerializeField]
+    private Image WCoolImage;
+    [SerializeField]
+    private Image ECoolImage;
+
+
 
 
 
@@ -27,13 +42,26 @@ public class GameManager : MonoBehaviour
         HPImage.fillAmount = (float)PHP / (float)MaxHp;
         PFury = Player.Fury;
         FuryImage.fillAmount = (float)PFury / (float)MaxFury;
+        QCT = Player.NQCTime;
+        WCT = Player.NWCTime;
+        ECT = Player.NECTime;
+        MQCT = Player.QCTime;
+        MWCT = Player.WCTime;
+        MECT = Player.ECTime;
     }
 
     // Update is called once per frame
     void Update()
     {
+        QCT = Player.NQCTime;
+        WCT = Player.NWCTime;
+        ECT = Player.NECTime;
         HandleFury();
         HandleHp();
+        HandleQCool();
+        HandleWCool();
+        HandleECool();
+        print(QCT);
     }
 
     private void HandleHp()
@@ -45,5 +73,21 @@ public class GameManager : MonoBehaviour
     {
         PFury = Player.Fury;
         FuryImage.fillAmount = Mathf.Lerp(FuryImage.fillAmount, (float)PFury / (float)MaxFury, Time.deltaTime * 10);
+    }
+
+    private void HandleQCool()
+    {
+        QCoolImage.fillAmount = 1 - ((float)QCT / (float)MQCT);
+        //QCoolImage.fillAmount = Mathf.Lerp(QCoolImage.fillAmount, 1 - ((float)QCT / (float)MQCT), Time.deltaTime);
+    }
+    private void HandleWCool()
+    {
+        WCoolImage.fillAmount = 1 - ((float)WCT / (float)MWCT);
+        //WCoolImage.fillAmount = Mathf.Lerp(WCoolImage.fillAmount, 1 - ((float)WCT / (float)MWCT), Time.deltaTime);
+    }
+    private void HandleECool()
+    {
+        ECoolImage.fillAmount = 1 - ((float)ECT / (float)MECT);
+        //ECoolImage.fillAmount = Mathf.Lerp(ECoolImage.fillAmount, 1 - ((float)ECT / (float)MECT), Time.deltaTime);
     }
 }
