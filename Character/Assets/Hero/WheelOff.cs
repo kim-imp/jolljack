@@ -16,6 +16,7 @@ public class WheelOff : MonoBehaviour
 
     }
 
+    // W스킬 공격 범위 끄기
     IEnumerator TurnOff()
     {
         yield return new WaitForSeconds(0.4f);

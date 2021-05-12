@@ -16,6 +16,7 @@ public class ChargeOff : MonoBehaviour
 
     }
 
+    // Q스킬 공격 범위 끄기
     IEnumerator TurnOff()
     {
         yield return new WaitForSeconds(.4f);

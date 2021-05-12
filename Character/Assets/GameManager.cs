@@ -64,17 +64,22 @@ public class GameManager : MonoBehaviour
         print(QCT);
     }
 
+    // HP 게이지 관리
     private void HandleHp()
     {
         PHP = Player.HP;
         HPImage.fillAmount = Mathf.Lerp(HPImage.fillAmount, (float)PHP / (float)MaxHp, Time.deltaTime * 10);
     }
+
+    // 분노 게이지 관리
     private void HandleFury()
     {
         PFury = Player.Fury;
         FuryImage.fillAmount = Mathf.Lerp(FuryImage.fillAmount, (float)PFury / (float)MaxFury, Time.deltaTime * 10);
     }
 
+
+    // 쿨타임 관리
     private void HandleQCool()
     {
         QCoolImage.fillAmount = 1 - ((float)QCT / (float)MQCT);

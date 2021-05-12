@@ -50,7 +50,6 @@ public class Hero : MonoBehaviour
     private Animator anim;
     Rigidbody2D rigid;
 
-    Vector3 movement;
     bool isjump = false;
     bool isLookR = true;
     bool isBerserk = false;
@@ -73,8 +72,10 @@ public class Hero : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // 바닥 체크
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
+        // 이동
         moveInput = Input.GetAxisRaw("Horizontal");
         anim.SetFloat("MoveLR", moveInput);
         if (isGrounded)
@@ -114,6 +115,8 @@ public class Hero : MonoBehaviour
                 anim.SetBool("IsLookR", false);
             }
         }
+
+        // 공격
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             if (comboStep == 0)
@@ -132,6 +135,7 @@ public class Hero : MonoBehaviour
             }
         }
 
+        // 스킬
         if (Input.GetKeyDown(KeyCode.Q))
         {
             if (!isQCool)
@@ -172,6 +176,7 @@ public class Hero : MonoBehaviour
             }
         }
 
+        // 분노(광폭화 자원) 관리
         if (Fury < 0)
         {
             Fury = 0;
@@ -195,12 +200,15 @@ public class Hero : MonoBehaviour
         print(isBerserk);
     }
 
+
+    // 분노 중
     public void Berserking()
     {
         Vector3 Ep = new Vector3(transform.position.x, transform.position.y + .5f);
         Instantiate(EBerserking, Ep, transform.rotation, gameObject.transform);
     }
 
+    // 분노
     public void Berserk()
     {
         Vector3 Ep = new Vector3(transform.position.x, transform.position.y + .5f);
@@ -208,6 +216,19 @@ public class Hero : MonoBehaviour
         isBerserk = true;
     }
 
+    // 공격시 이동
+    IEnumerator AttackRMove()
+    {
+        yield return new WaitForSeconds(0.2f);
+        rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+    }
+    IEnumerator AttackLMove()
+    {
+        yield return new WaitForSeconds(0.2f);
+        rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+    }
+
+    // 콤보 공격
     public void ComboPossible()
     {
         comboPossible = true;
@@ -239,7 +260,38 @@ public class Hero : MonoBehaviour
         comboStep = 0;
     }
 
+    // 공격 범위
+    public void SlashOn()
+    {
+        Vector3 EP;
+        if (isLookR)
+        {
+            EP = new Vector3(transform.position.x + 0.5f, transform.position.y + 1);
+            Instantiate(SlashR, EP, transform.rotation, gameObject.transform);
+        }
+        if (!isLookR)
+        {
+            EP = new Vector3(transform.position.x - 0.5f, transform.position.y + 1);
+            Instantiate(Slash, EP, transform.rotation, gameObject.transform);
+        }
+    }
+    public void SlashOn2()
+    {
+        Vector3 EP;
+        if (isLookR)
+        {
+            EP = new Vector3(transform.position.x + 0.5f, transform.position.y + 1);
+            Instantiate(SlashR2, EP, transform.rotation, gameObject.transform);
+        }
+        if (!isLookR)
+        {
+            EP = new Vector3(transform.position.x - 0.5f, transform.position.y + 1);
+            Instantiate(Slash2, EP, transform.rotation, gameObject.transform);
+        }
+    }
+
     // 나중에 스킬별로 둬서 데미지차이
+    // 스킬 범위
     public void AttackRangeOn()
     {
         attackRange.SetActive(true);
@@ -257,6 +309,7 @@ public class Hero : MonoBehaviour
         attackRange2.SetActive(false);
     }
 
+    // 바라보는 방향
     void LookRight()
     {
         transform.localScale = new Vector3(1, 1, 1);
@@ -267,24 +320,9 @@ public class Hero : MonoBehaviour
         transform.localScale = new Vector3(-1, 1, 1);
     }
 
-    public void SpawnSwordFlag()
-    {
-        if (isLookR)
-        {
-            if (isBerserk)
-                Instantiate(BSwordFlag, FlagPoint.position, FlagPoint.rotation);
-            else if (!isBerserk)
-                Instantiate(SwordFlag, FlagPoint.position, FlagPoint.rotation);
-        }
-        else if (!isLookR)
-        {
-            if (isBerserk)
-                Instantiate(LBSwordFlag, FlagPoint.position, FlagPoint.rotation);
-            else if (!isBerserk)
-                Instantiate(LSwordFlag, FlagPoint.position, FlagPoint.rotation);
-        }
-    }
 
+
+    // Q 공격
     public void Charge()
     {
         Vector3 Ep;
@@ -322,6 +360,7 @@ public class Hero : MonoBehaviour
         }
     }
 
+    // W 공격
     public void StartWheelWind()
     {
         if(isBerserk)
@@ -343,17 +382,26 @@ public class Hero : MonoBehaviour
             WheelRange.SetActive(false);
     }
 
-    IEnumerator AttackRMove()
+    // E 생성
+    public void SpawnSwordFlag()
     {
-        yield return new WaitForSeconds(0.2f);
-        rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
-    }
-    IEnumerator AttackLMove()
-    {
-        yield return new WaitForSeconds(0.2f);
-        rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+        if (isLookR)
+        {
+            if (isBerserk)
+                Instantiate(BSwordFlag, FlagPoint.position, FlagPoint.rotation);
+            else if (!isBerserk)
+                Instantiate(SwordFlag, FlagPoint.position, FlagPoint.rotation);
+        }
+        else if (!isLookR)
+        {
+            if (isBerserk)
+                Instantiate(LBSwordFlag, FlagPoint.position, FlagPoint.rotation);
+            else if (!isBerserk)
+                Instantiate(LSwordFlag, FlagPoint.position, FlagPoint.rotation);
+        }
     }
 
+    // 쿨타임
     IEnumerator QCoolTime(float cool)
     {
         isQCool = true;
@@ -394,6 +442,8 @@ public class Hero : MonoBehaviour
         isECool = false;
     }
 
+
+    // HP관리 + HP0일때 한번 버티기
     public void HPMinus()
     {
         if (HP > 0)
@@ -414,34 +464,8 @@ public class Hero : MonoBehaviour
         CanMove = false;
     }
 
-    public void SlashOn()
-    {
-        Vector3 EP;
-        if (isLookR)
-        {
-            EP = new Vector3(transform.position.x + 0.5f, transform.position.y + 1);
-            Instantiate(SlashR, EP, transform.rotation, gameObject.transform);
-        }
-        if (!isLookR)
-        {
-            EP = new Vector3(transform.position.x - 0.5f, transform.position.y + 1);
-            Instantiate(Slash, EP, transform.rotation, gameObject.transform);
-        }
-    }
-    public void SlashOn2()
-    {
-        Vector3 EP;
-        if (isLookR)
-        {
-            EP = new Vector3(transform.position.x + 0.5f, transform.position.y + 1);
-            Instantiate(SlashR2, EP, transform.rotation, gameObject.transform);
-        }
-        if (!isLookR)
-        {
-            EP = new Vector3(transform.position.x - 0.5f, transform.position.y + 1);
-            Instantiate(Slash2, EP, transform.rotation, gameObject.transform);
-        }
-    }
+   
+    // 트리거 이것저것
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Enemy")
