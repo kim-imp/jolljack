@@ -75,6 +75,13 @@
     <Compile Include="Assets\Hero\SlashOff.cs" />
     <Compile Include="Assets\Hero\SwordFlag.cs" />
     <Compile Include="Assets\Hero\WheelOff.cs" />
+    <Compile Include="Assets\Script\Arrow.cs" />
+    <Compile Include="Assets\Script\EnemyMove.cs" />
+    <Compile Include="Assets\Script\MonsterAttack.cs" />
+    <Compile Include="Assets\Script\MonsterBAttack.cs" />
+    <Compile Include="Assets\Script\MonsterMove.cs" />
+    <Compile Include="Assets\Script\MonsterRush.cs" />
+    <Compile Include="Assets\Script\playerMove.cs" />
     <None Include="Assets\Hero\Effect\shader_animatingTile.shader" />
     <None Include="Assets\Hero\Effect\shader_animatingTile3.shader" />
     <None Include="Assets\Hero\Effect\shader_animatingTile2.shader" />
