@@ -61,7 +61,6 @@ public class GameManager : MonoBehaviour
         HandleQCool();
         HandleWCool();
         HandleECool();
-        print(QCT);
     }
 
     // HP 게이지 관리

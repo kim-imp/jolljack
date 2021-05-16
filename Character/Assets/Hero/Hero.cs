@@ -196,8 +196,6 @@ public class Hero : MonoBehaviour
         {
 
         }
-
-        print(isBerserk);
     }
 
 
@@ -468,7 +466,7 @@ public class Hero : MonoBehaviour
     // 트리거 이것저것
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Enemy")
+        if(collision.tag == "Enemy_A")
         {
             if (HP > 0)
             {

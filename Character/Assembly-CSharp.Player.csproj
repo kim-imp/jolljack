@@ -676,6 +676,7 @@
     <Compile Include="Assets\Script\EnemyMove.cs" />
     <Compile Include="Assets\Script\MonsterAttack.cs" />
     <Compile Include="Assets\Script\MonsterBAttack.cs" />
+    <Compile Include="Assets\Script\MonsterFInd.cs" />
     <Compile Include="Assets\Script\MonsterMove.cs" />
     <Compile Include="Assets\Script\MonsterRush.cs" />
     <Compile Include="Assets\Script\playerMove.cs" />

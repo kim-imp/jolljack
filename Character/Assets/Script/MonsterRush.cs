@@ -5,24 +5,34 @@ using UnityEngine;
 public class MonsterRush : MonoBehaviour
 {
     GameObject Slime;
+    int HManySlime;
+    float[] Closests;
+    float Closest = 100;
+    int ClosestSlime;
 
     void Awake()
     {
-        Slime = GameObject.Find("Slime_A");
+        Slime = GameObject.Find(this.transform.parent.name.ToString());
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.tag == "Player")
         {
             Vector3 playerPos = collision.transform.position;
-            if (playerPos.x > transform.position.x)
+            if(GetComponent<MonsterFInd>().isPlayerFind == true)
             {
-                Slime.GetComponent<MonsterMove>().RushRight();
-            }
-            if (playerPos.x < transform.position.x)
-            {
-                Slime.GetComponent<MonsterMove>().RushLeft();
+                if (playerPos.x > transform.position.x)
+                {
+                    Slime.GetComponent<MonsterMove>().RushRight();
+                    //GetComponent<MonsterMove>().RushRight();
+                }
+                if (playerPos.x < transform.position.x)
+                {
+                    print(this.transform.parent.name.ToString());
+                    Slime.GetComponent<MonsterMove>().RushLeft();
+                    //GetComponent<MonsterMove>().RushLeft();
+                }
             }
         }
     }
