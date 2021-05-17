@@ -253,6 +253,8 @@ public class Hero : MonoBehaviour
     {
         comboPossible = false;
         CanMove = true;
+        attackRange.SetActive(false);
+        attackRange2.SetActive(false);
         WheelRange.SetActive(false);
         BWheelRange.SetActive(false);
         comboStep = 0;

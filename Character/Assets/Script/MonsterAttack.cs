@@ -45,7 +45,7 @@ public class MonsterAttack : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Mon.GetComponent<MonsterMove>().OffAttack();
+            //Mon.GetComponent<MonsterMove>().OffAttack();
         }
     }
 }

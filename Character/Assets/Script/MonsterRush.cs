@@ -5,10 +5,6 @@ using UnityEngine;
 public class MonsterRush : MonoBehaviour
 {
     GameObject Slime;
-    int HManySlime;
-    float[] Closests;
-    float Closest = 100;
-    int ClosestSlime;
 
     void Awake()
     {

@@ -10,6 +10,8 @@ TagManager:
   - Flag
   - Enemy_A
   - Slime_A
+  - Find
+  - AttackFind
   layers:
   - Default
   - TransparentFX
