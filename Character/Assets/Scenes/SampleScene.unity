@@ -1953,7 +1953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextMove: 0
   AttackCol: {fileID: 0}
-  HP: 0
+  HP: 3
   MonsterHitBox: {fileID: 0}
 --- !u!50 &5513956102340021236
 Rigidbody2D:
@@ -2265,7 +2265,7 @@ PrefabInstance:
     - target: {fileID: 171859149668780627, guid: 512131a9e451464408381e157612fb49,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8992918977008850624, guid: 512131a9e451464408381e157612fb49,
         type: 3}

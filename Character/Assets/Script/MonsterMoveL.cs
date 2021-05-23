@@ -66,7 +66,7 @@ public class MonsterMoveL : MonoBehaviour
         {
             HP = 0;
         }
-        if(SlimeFind.GetComponent<MonsterFInd>().isPlayerFind && !Hitting && !isDie)
+        if(SlimeFind.GetComponent<MonsterFIndL>().isPlayerFind && !Hitting && !isDie)
         {
             rigid.velocity = new Vector2(nextMove * 1.5f, rigid.velocity.y);
             anim.SetFloat("WalkSpeed", nextMove * 1.5f);
@@ -80,7 +80,7 @@ public class MonsterMoveL : MonoBehaviour
                 }
                 else
                 {
-                    nextMove = 1f;
+                    nextMove = -1f;
                     spriteRenderer.flipX = nextMove == 1f;
                 }
             }
@@ -93,7 +93,7 @@ public class MonsterMoveL : MonoBehaviour
                 }
                 else
                 {
-                    nextMove = -1f;
+                    nextMove = 1f;
                     spriteRenderer.flipX = nextMove == 1f;
                 }
             }

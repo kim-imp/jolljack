@@ -22,13 +22,13 @@ public class MonsterFIndL : MonoBehaviour
             {
                 if (playerPos.x > transform.position.x)
                 {
-                    Slime.GetComponent<MonsterMove>().RushRight();
+                    Slime.GetComponent<MonsterMove>().RushLeft();
                     //GetComponent<MonsterMove>().RushRight();
                 }
                 if (playerPos.x < transform.position.x)
                 {
                     print(this.transform.parent.name.ToString());
-                    Slime.GetComponent<MonsterMove>().RushLeft();
+                    Slime.GetComponent<MonsterMove>().RushRight();
                     //GetComponent<MonsterMove>().RushLeft();
                 }
             }
