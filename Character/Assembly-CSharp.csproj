@@ -75,6 +75,7 @@
     <Compile Include="Assets\Hero\SlashOff.cs" />
     <Compile Include="Assets\Hero\SwordFlag.cs" />
     <Compile Include="Assets\Hero\WheelOff.cs" />
+    <Compile Include="Assets\MonsterRun.cs" />
     <Compile Include="Assets\Script\Arrow.cs" />
     <Compile Include="Assets\Script\EnemyMove.cs" />
     <Compile Include="Assets\Script\MonsterAttack.cs" />

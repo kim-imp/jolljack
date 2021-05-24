@@ -8,15 +8,18 @@ public class MonsterMoveL : MonoBehaviour
     Animator anim;
     SpriteRenderer spriteRenderer;
     public float nextMove;
-    bool attacking = false;
+    public bool attacking = false;
 
-    public GameObject AttackCol;
+    public Vector3 AttackPosition;
     public int HP;
     bool isDie = false;
     bool Hitting;
 
 
     public BoxCollider2D MonsterHitBox;
+    public CircleCollider2D MonsterRun;
+
+    public GameObject Arrow;
     GameObject SlimeFind;
     GameObject Hero;
 
@@ -76,12 +79,14 @@ public class MonsterMoveL : MonoBehaviour
                 if (attacking == true)
                 {
                     nextMove = 0;
-                    spriteRenderer.flipX = true;
+                    //spriteRenderer.flipX = true;
+                    LookLeft();
                 }
                 else
                 {
                     nextMove = -1f;
-                    spriteRenderer.flipX = nextMove == 1f;
+                    //spriteRenderer.flipX = nextMove == 1f;
+                    LookRight();
                 }
             }
             if (playerPos.x < transform.position.x)
@@ -89,15 +94,27 @@ public class MonsterMoveL : MonoBehaviour
                 if (attacking == true)
                 {
                     nextMove = 0;
-                    spriteRenderer.flipX = false;
+                    //spriteRenderer.flipX = false;
+                    LookRight();
                 }
                 else
                 {
                     nextMove = 1f;
-                    spriteRenderer.flipX = nextMove == 1f;
+                    //spriteRenderer.flipX = nextMove == 1f;
+                    LookLeft();
                 }
             }
         }
+    }
+
+    void LookRight()
+    {
+        transform.localScale = new Vector3(1, 1, 1);
+    }
+
+    void LookLeft()
+    {
+        transform.localScale = new Vector3(-1, 1, 1);
     }
 
     IEnumerator Think()
@@ -110,8 +127,10 @@ public class MonsterMoveL : MonoBehaviour
         anim.SetFloat("WalkSpeed", nextMove);
 
         //애니메이션 방향전환
-        if (nextMove != 0)
-            spriteRenderer.flipX = nextMove == 1f;
+        if (nextMove >= 0)
+            LookLeft();
+        else if (nextMove <= 0)
+            LookRight();
 
         //재귀
         float nextThinkTime = Random.Range(1f, 3f);
@@ -123,7 +142,11 @@ public class MonsterMoveL : MonoBehaviour
     IEnumerator turn()
     {
         nextMove = nextMove * -1f;
-        spriteRenderer.flipX = nextMove == 1f;
+        //spriteRenderer.flipX = nextMove == 1f;
+        if (nextMove >= 0)
+            LookLeft();
+        else if (nextMove <= 0)
+            LookRight();
 
         yield return new WaitForSeconds(0.2f);
     }
@@ -150,7 +173,17 @@ public class MonsterMoveL : MonoBehaviour
             //rigid.AddForce(playerP * 5, ForceMode2D.Impulse);
             attacking = true;
             anim.SetBool("isAttack", true);
-            AttackCol.SetActive(true);
+            //AttackCol.SetActive(true);
+            Instantiate(Arrow, AttackPosition, Arrow.transform.rotation);
+            SlimeFind.GetComponent<MonsterFIndL>().AttackCoolNow = SlimeFind.GetComponent<MonsterFIndL>().AttackCool;
+            //if(SlimeFind.GetComponent<MonsterFIndL>().AttackCoolNow > 0)
+            //{
+            //    SlimeFind.GetComponent<MonsterFIndL>().AttackCoolNow -= Time.deltaTime;
+            //}
+            //else if (SlimeFind.GetComponent<MonsterFIndL>().AttackCool <= 0)
+            //{
+            //    SlimeFind.GetComponent<MonsterFIndL>().AttackCoolNow = 0;
+            //}
         }
     }
 
@@ -159,7 +192,7 @@ public class MonsterMoveL : MonoBehaviour
         attacking = false;
         anim.SetBool("isAttack", false);
 
-        AttackCol.SetActive(false);
+        //AttackCol.SetActive(false);
     }
 
     public void Die()

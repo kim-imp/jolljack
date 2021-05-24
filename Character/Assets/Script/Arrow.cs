@@ -18,7 +18,7 @@ public class Arrow : MonoBehaviour
 
     void Start()
     {
-        //StartCoroutine(SimulateProjectile());
+        StartCoroutine(SimulateProjectile());
     }
 
 

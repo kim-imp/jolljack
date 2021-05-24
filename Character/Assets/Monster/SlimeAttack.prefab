@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4831444739260732495
 Transform:
   m_ObjectHideFlags: 0
@@ -92,12 +92,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4831444739260732494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c96502dae6e69f4aa014d8b09151d5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 668a55ce867e52241b38981f4a1c3935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 4831444739260732494}
-  attackPT: {fileID: 0}
-  attackPTpos: {fileID: 0}
+  Target: {fileID: 0}
+  firingAngle: 45
+  gravity: 9.8
+  Projectile: {fileID: 0}
 --- !u!50 &7380040772247424878
 Rigidbody2D:
   serializedVersion: 4

@@ -5,30 +5,61 @@ using UnityEngine;
 public class MonsterFIndL : MonoBehaviour
 {
     public bool isPlayerFind = false;
-     GameObject Slime;
+    GameObject Slime;
+    public float AttackCool;
+    public float AttackCoolNow;
 
     void Awake()
     {
         Slime = GameObject.Find(this.transform.parent.name.ToString());
+        AttackCool = 2.0f;
+        AttackCoolNow = 0;
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void Update()
+    {
+        print(AttackCoolNow);
+        if(AttackCoolNow <= 0)
+        {
+            AttackCoolNow = 0;
+        }
+        else if(AttackCoolNow > 0)
+        {
+            AttackCoolNow -= Time.deltaTime;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
             isPlayerFind = true;
             Vector3 playerPos = collision.transform.position;
-            if(GetComponent<MonsterFInd>().isPlayerFind == true)
+            if(GetComponent<MonsterFIndL>().isPlayerFind == true)
             {
                 if (playerPos.x > transform.position.x)
                 {
-                    Slime.GetComponent<MonsterMove>().RushLeft();
+                    if(AttackCoolNow == 0)
+                    {
+                        Slime.GetComponent<MonsterMoveL>().OnAttack();
+                    }
+                    else
+                    {
+                        Slime.GetComponent<MonsterMoveL>().RushLeft();
+                    }
                     //GetComponent<MonsterMove>().RushRight();
                 }
                 if (playerPos.x < transform.position.x)
                 {
+                    if (AttackCoolNow == 0)
+                    {
+                        Slime.GetComponent<MonsterMoveL>().OnAttack();
+                    }
+                    else
+                    {
+                        Slime.GetComponent<MonsterMoveL>().RushRight();
+                    }
                     print(this.transform.parent.name.ToString());
-                    Slime.GetComponent<MonsterMove>().RushRight();
                     //GetComponent<MonsterMove>().RushLeft();
                 }
             }
