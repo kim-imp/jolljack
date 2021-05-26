@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 356825281}
   m_Layer: 8
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1959,7 +1959,7 @@ MonoBehaviour:
   HP: 3
   MonsterHitBox: {fileID: 5513956102340021237}
   MonsterRun: {fileID: 5513956102367128030}
-  Arrow: {fileID: 4831444739260732494, guid: dbbc29c120f9ca145b5df5e72687d9e8, type: 3}
+  Arrow: {fileID: 7560976256016259120, guid: 2ccc4884100b54b4e8137e707f59c1d0, type: 3}
 --- !u!50 &5513956102340021236
 Rigidbody2D:
   serializedVersion: 4

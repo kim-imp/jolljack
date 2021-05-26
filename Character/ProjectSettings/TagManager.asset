@@ -12,6 +12,7 @@ TagManager:
   - Slime_A
   - Find
   - AttackFind
+  - Ground
   layers:
   - Default
   - TransparentFX

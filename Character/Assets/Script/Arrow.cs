@@ -18,8 +18,10 @@ public class Arrow : MonoBehaviour
 
     void Start()
     {
+        Target = GameObject.FindWithTag("Player").transform;
         StartCoroutine(SimulateProjectile());
     }
+
 
 
     public IEnumerator SimulateProjectile()
@@ -43,8 +45,8 @@ public class Arrow : MonoBehaviour
         float flightDuration = target_Distance / Vx;
 
         // 발사체회전
-        Vector3 tarpos = Target.position - Projectile.position;
-        Projectile.rotation = Quaternion.LookRotation(tarpos);
+        Vector3 tarpos = Target.transform.position - Projectile.transform.position;
+        Projectile.rotation = Quaternion.LookRotation(tarpos).normalized;
 
         float elapse_time = 0;
 

@@ -38,38 +38,39 @@ public class MonsterMoveL : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        AttackPosition = GameObject.Find(this.transform.GetChild(2).name.ToString()).transform.position;
         print(HP);
         rigid.velocity = new Vector2(nextMove, rigid.velocity.y);
 
-        Vector2 frontVec = new Vector2(rigid.position.x + nextMove*0.5f, rigid.position.y);
+        Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.5f, rigid.position.y);
         Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
         RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Ground"));
-        if(Hitting)
+        if (Hitting)
         {
             rigid.velocity = new Vector2(0, 0);
         }
-        if(isDie)
+        if (isDie)
         {
             StopCoroutine("Think");
             StopCoroutine("Turn");
             rigid.velocity = new Vector2(0, 0);
         }
-        if(rayHit.collider == null)
+        if (rayHit.collider == null)
         {
             StartCoroutine("turn");
-            if (rayHit.distance < 0.5f) 
+            if (rayHit.distance < 0.5f)
                 Debug.Log("경고!");
         }
 
-        if(HP == 0)
+        if (HP == 0)
         {
             Die();
         }
-        else if(HP < 0)
+        else if (HP < 0)
         {
             HP = 0;
         }
-        if(SlimeFind.GetComponent<MonsterFIndL>().isPlayerFind && !Hitting && !isDie)
+        if (SlimeFind.GetComponent<MonsterFIndL>().isPlayerFind && !Hitting && !isDie)
         {
             rigid.velocity = new Vector2(nextMove * 1.5f, rigid.velocity.y);
             anim.SetFloat("WalkSpeed", nextMove * 1.5f);
@@ -174,7 +175,6 @@ public class MonsterMoveL : MonoBehaviour
             attacking = true;
             anim.SetBool("isAttack", true);
             //AttackCol.SetActive(true);
-            Instantiate(Arrow, AttackPosition, Arrow.transform.rotation);
             SlimeFind.GetComponent<MonsterFIndL>().AttackCoolNow = SlimeFind.GetComponent<MonsterFIndL>().AttackCool;
             //if(SlimeFind.GetComponent<MonsterFIndL>().AttackCoolNow > 0)
             //{
@@ -186,6 +186,12 @@ public class MonsterMoveL : MonoBehaviour
             //}
         }
     }
+
+    public void Fire()
+    {
+        Instantiate(Arrow, AttackPosition, Arrow.transform.rotation);
+    }
+
 
     public void OffAttack()
     {
