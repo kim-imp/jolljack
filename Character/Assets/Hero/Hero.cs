@@ -57,6 +57,7 @@ public class Hero : MonoBehaviour
     public bool isWCool = false;
     public bool isECool = false;
     bool isCanAlive = true;
+    bool isDie = false;
 
     bool comboPossible;
     int comboStep;
@@ -468,31 +469,35 @@ public class Hero : MonoBehaviour
     // 트리거 이것저것
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Enemy_A")
+        if (isDie == false)
         {
-            if (HP > 0)
+            if (collision.tag == "Enemy_A")
             {
-                anim.Play("Hit");
-                if (isLookR)
+                if (HP > 0)
                 {
-                    rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                    anim.Play("Hit");
+                    if (isLookR)
+                    {
+                        rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                    }
+                    else if (!isLookR)
+                    {
+                        rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                    }
                 }
-                else if (!isLookR)
+                else if (HP <= 0)
                 {
-                    rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
-                }
-            }
-            else if (HP <= 0)
-            {
-                HP = 0;
-                anim.Play("Death");
-                if (isLookR)
-                {
-                    rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
-                }
-                else if (!isLookR)
-                {
-                    rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                    HP = 0;
+                    anim.Play("Death");
+                    isDie = true;
+                    if (isLookR)
+                    {
+                        rigid.AddForce(Vector2.left * 4f, ForceMode2D.Impulse);
+                    }
+                    else if (!isLookR)
+                    {
+                        rigid.AddForce(Vector2.right * 4f, ForceMode2D.Impulse);
+                    }
                 }
             }
         }
