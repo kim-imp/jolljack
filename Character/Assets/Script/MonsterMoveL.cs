@@ -35,6 +35,11 @@ public class MonsterMoveL : MonoBehaviour
         Hero = GameObject.FindWithTag("Player");
     }
 
+    private void Start()
+    {
+        StartCoroutine("IsOn");
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -208,7 +213,7 @@ public class MonsterMoveL : MonoBehaviour
         Debug.Log("Die");
         rigid.velocity = new Vector2(0, rigid.velocity.y);
         anim.SetTrigger("isDie");
-        spriteRenderer.color = new Color(.8f, 0, 0, 0.4f);
+        //spriteRenderer.color = new Color(.8f, 0, 0, 0.4f);
         StopCoroutine("Think");
         StopCoroutine("Turn");
         MonsterHitBox.enabled = false;
@@ -257,6 +262,11 @@ public class MonsterMoveL : MonoBehaviour
             else if (HP <= 0)
                 anim.SetBool("HittingDie", true);
         }
+    }
+    IEnumerator IsOn()
+    {
+        yield return new WaitForSeconds(.8f);
+        anim.SetBool("IsInit", true);
     }
 
     IEnumerator Hit()

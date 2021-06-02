@@ -681,6 +681,7 @@
     <Compile Include="Assets\Script\MonsterFInd.cs" />
     <Compile Include="Assets\Script\MonsterFIndL.cs" />
     <Compile Include="Assets\Script\MonsterMove.cs" />
+    <Compile Include="Assets\Script\MonsterMoveBoss.cs" />
     <Compile Include="Assets\Script\MonsterMoveL.cs" />
     <Compile Include="Assets\Script\MonsterRush.cs" />
     <Compile Include="Assets\Script\playerMove.cs" />
